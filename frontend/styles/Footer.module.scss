@@ -1,0 +1,30 @@
+.Footer_Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 100px;
+    gap:30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+
+    &_horiz{
+        width: 1000px;
+        border: none;
+    }
+
+    &_Bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap:50px;
+        margin-right: 100px;
+        font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    }
+
+    &_Bottom h5{
+        font-weight: 600;
+    }
+}

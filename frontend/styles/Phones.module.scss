@@ -1,0 +1,144 @@
+.Phones_Container{
+    &_Heading{
+        display: flex;
+        text-align: center;
+        font-size: 60px;
+        margin-left:250px;
+        margin-top: 100px;
+        color: #4f4f4f;
+    }
+
+    &_Card{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        &_Text{
+            margin-left: 40px;
+            font-weight: 700;
+        }
+    }
+
+    &_Difference{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 80px;
+      
+    }
+
+    &_Buttons{
+      
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 230px;
+        margin-top: 20px;
+    }
+
+    &_TextInfo{
+        text-align: center;
+        margin-top: 100px;
+        justify-content: center;
+    }
+
+    &_Shapes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 80px;
+        gap: 30px;
+
+        &_Rectangle{
+        background-color: #fff5e4;
+        width: 350px;
+        height: 340px;
+        border-radius: 25px;
+
+        &_Data{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 30px;
+            margin-top: 20px;
+            gap: 10px;
+        }
+        }
+    }
+
+    &_ImgText{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 30px;
+        gap: 30px;
+
+        &_Shape{
+            background-color: #d8eaff;
+            width: 720px;
+            height: 450px;
+            border-radius: 25px;
+
+            &_Content{
+                display: flex;
+                flex-direction: column;
+                margin-top: 100px;
+                margin-left: 40px;
+            }
+        }
+    }
+
+
+    &_Pixelback{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 50px;
+        &_Shapes{
+            background-color: #f1f1f1;
+            width: 450px;
+            height: 250px;
+            border-radius: 10px;
+
+            &_Data{
+                display: flex;
+                flex-direction: column;
+                margin-top: 50px;
+                margin-left: 30px;
+                gap: -40px;
+            }
+        }
+    }
+
+    &_FooterRect{
+        display: flex;
+        justify-content: center;
+
+        &_Rect{
+        background-color: #f1f1f1;
+        width: 900px;
+        height: 200px;
+        margin-top: 40px;
+        border-radius: 25px;
+
+        &_Data{
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            text-align: center;
+        }
+      }
+    }
+}
+
+.PhonesAccordian_Header{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    flex-direction: column;
+    margin-left: 620px;
+    margin-top: -120px;
+}

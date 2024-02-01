@@ -1,0 +1,22 @@
+.Header_Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    font-family:Arial, Helvetica, sans-serif;
+
+    &_Welcome{
+        color: black;
+        font-size: 55px;
+    }
+
+    &_Google{
+        color:green;
+        font-size: 50px;
+        margin-top: -55px;
+    }
+
+   
+
+}

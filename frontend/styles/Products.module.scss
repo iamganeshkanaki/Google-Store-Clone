@@ -1,0 +1,15 @@
+.zoomwrapper{
+    height: 330px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.zoomwrapper img{
+    object-fit: cover;
+    transition: transform 0.8s;
+    height: 100%;
+}
+
+.zoomwrapper:hover img{
+transform: scale(1.03);
+}
